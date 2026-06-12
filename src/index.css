@@ -19,6 +19,13 @@ html {
   color: #050505;
 }
 
+img,
+svg {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
