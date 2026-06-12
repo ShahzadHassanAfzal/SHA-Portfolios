@@ -36,8 +36,9 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="flex gap-2">
-          <NavLink to="/">
+          <NavLink to="/" aria-label="home">
             <svg
+              aria-hidden="true"
               width="35"
               height="33"
               viewBox="0 0 15 13"
@@ -52,8 +53,9 @@ const Navbar = () => {
             </svg>
           </NavLink>
 
-          <NavLink to="/skills">
+          <NavLink to="/skills" aria-label="skills">
             <svg
+              aria-hidden="true"
               width="35"
               height="33"
               viewBox="0 0 18 15"
@@ -84,8 +86,9 @@ const Navbar = () => {
               <path d="M9 14L11 1" stroke="currentColor" strokeWidth="0.7" />
             </svg>
           </NavLink>
-          <NavLink to="/portfolio">
+          <NavLink to="/portfolio" aria-label="portfolio">
             <svg
+              aria-hidden="true"
               width="35"
               height="33"
               viewBox="0 0 24 24"
@@ -95,8 +98,9 @@ const Navbar = () => {
               <path d="M3 6A2 2 0 0 1 5 4H10L12 6H19A2 2 0 0 1 21 8V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18V6Z" />
             </svg>
           </NavLink>
-          <NavLink to="/contact">
+          <NavLink to="/contact" aria-label="contact">
             <svg
+              aria-hidden="true"
               width="35"
               height="33"
               viewBox="0 0 13 13"

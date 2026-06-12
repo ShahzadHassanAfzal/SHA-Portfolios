@@ -1,10 +1,10 @@
 import React, {memo} from 'react'
-import Main from "../../../public/images/Main.png";
+import Main from "../../../public/images/Main.webp";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import UI from "../../../public/images/responsive-design.svg";
 import design from "../../../public/images/web-design.svg";
-import user from "../../../public/images/user.png";
+import user from "../../../public/images/user.svg";
 import RotateButton from "../custom/RotateButton";
 import { useEffect, useRef } from "react";
 import gsap from 'gsap'

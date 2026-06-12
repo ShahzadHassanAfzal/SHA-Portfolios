@@ -179,6 +179,7 @@ const Section2 = () => {
           <div className="relative w-[93%] pointer-events-none sm:w-[80%] xl:w-[65%] overflow-hidden rounded-xl">
             <img
               src={Main}
+              alt="Section2Main"
               ref={imageRef}
               className="h-full w-full object-cover"
             />
