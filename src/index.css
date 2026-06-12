@@ -5,6 +5,20 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #ffffff; /* Gray highlight */
+  color: #050505; /* Selected text color */
+}
+
+::-moz-selection {
+  background: #ffffff;
+  color: #050505;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
