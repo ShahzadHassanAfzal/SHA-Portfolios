@@ -11,7 +11,6 @@ import Footer from "../components/custom/Footer";
 const Skills = () => {
   return (
     <div className="cursor-default">
-      <Navbar />
       <PageTransition>
         <Hero />
       </PageTransition>

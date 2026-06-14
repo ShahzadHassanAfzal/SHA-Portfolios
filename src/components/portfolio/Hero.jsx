@@ -25,11 +25,11 @@ const Hero = () => {
         {/* Hero Section */}
         <div className="text-center">
           <div className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-5 py-2 text-base backdrop-blur-md orbitron-regular mb-6">
-            My Projects & Show Cases
+            My Portfolios & Show Cases
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl orbitron-regular leading-tighttext-white">
-            My Projects & Show Cases
+            My Portfolios & Show Cases
           </h1>
 
           <p className="max-w-3xl mx-auto mt-8 text-white/85 outfit-normal text-base sm:text-lg leading-relaxed">

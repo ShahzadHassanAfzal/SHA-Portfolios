@@ -30,7 +30,7 @@ const Navbar = () => {
         ref={menuRef}
         className="fixed z-100 transition-all duration-300 flex bg-black/30 backdrop-blur-3xl w-full md:w-[70%] lg:w-[60%] md:rounded-lg mt-0 md:mt-3 justify-between items-center h-18 border-b-2 border-white/60 md:border md:border-white px-4 md:px-10"
       >
-        <div className="flex z-50 flex-col items-center justify-center cursor-pointer transition-all duration-300 top-4 rounded-xl left-5 lg:left-20">
+        <div className="flex flex-col items-center justify-center cursor-pointer transition-all duration-300 top-4 rounded-xl left-5 lg:left-20">
           <Link to={"/"}>
             <div className="text-white orbitron-regular text-4xl">SHA</div>
           </Link>

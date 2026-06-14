@@ -13,7 +13,6 @@ import Navbar from "../components/custom/Navbar";
 const Home = () => {
   return (
     <div className="overflow-hidden cursor-default">
-      <Navbar />
       <PageTransition>
         <Hero />
       </PageTransition>

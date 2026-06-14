@@ -7,7 +7,6 @@ import Footer from "../components/custom/Footer";
 const Contact = () => {
   return (
     <div className="cursor-default">
-      <Navbar />
       <PageTransition>
         <Hero />
       </PageTransition>
